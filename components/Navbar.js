@@ -11,7 +11,7 @@ const Navbar = () => {
         <li>
             <a>
                 <Image src={homeIcon} alt="homeIcon" width="30px" height="30px" />
-                <h2 className='text-2xl font-semibold'>Homes</h2>
+                <h2 className='text-2xl font-semibold'>Home</h2>
             </a>
         </li>
         <li>
