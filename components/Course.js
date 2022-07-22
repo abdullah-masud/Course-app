@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image'
 
 const Course = ({ course }) => {
-    const { title, image, description1, mode, modeIcon, module, moduleIcon, student, studentIcon,
+    const { title, image, description1, mode, modeIcon, module, moduleIcon1, student, studentIcon,
         rating, price, priceIcon } = course
     return (
         <div>
@@ -21,7 +21,7 @@ const Course = ({ course }) => {
                         </div>
                         <div className='flex items-center gap-2 lg:w-48 w-36'>
                             <p className='font-semibold text-xl'>{module}</p>
-                            <Image src={moduleIcon} alt="Album" width="25px" height="25px" />
+                            <Image src={moduleIcon1} alt="Album" width="25px" height="25px" />
                             <div className="divider lg:divider-horizontal font-bold"></div>
                         </div>
                         <div className='flex items-center gap-2 lg:w-42 w-36'>

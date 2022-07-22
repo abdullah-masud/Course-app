@@ -12,9 +12,11 @@ const Courses = () => {
                     course={course}
                 />)
             }
+
         </div>
 
     );
 };
 
 export default Courses;
+

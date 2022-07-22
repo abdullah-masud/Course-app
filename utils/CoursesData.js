@@ -3,9 +3,10 @@ import image2 from '../assets/image2.png'
 import image3 from '../assets/image3.png'
 import image4 from '../assets/image4.png'
 import difficulty from '../assets/difficulty.png'
-import moduleIcon from '../assets/moduleIcon.png'
+import moduleIcon1 from '../assets/moduleIcon.png'
 import studentIcon from '../assets/studentIcon.png'
 import priceIcon from '../assets/priceIcon.png'
+import bookModuleIcon from '../assets/Book modules.png'
 
 const coursesData = [
     {
@@ -18,12 +19,18 @@ const coursesData = [
         mode: "Difficulty",
         modeIcon: difficulty,
         module: "25 Module",
-        moduleIcon: moduleIcon,
+        moduleIcon1: moduleIcon1,
         student: "19k Student",
         studentIcon: studentIcon,
         rating: "Rating ⭐⭐⭐⭐⭐",
         price: "$30 Price",
         priceIcon: priceIcon,
+        bookModuleIcon: bookModuleIcon,
+        moduleText1: "1. Demo Course Introduction Module",
+        moduleText2: "2. Demo Course DOT Regulations Module",
+        moduleText3: "3. Demo Course Quiz",
+        moduleText4: "4. Demo Forms Packet",
+
     },
     {
         id: '2',
@@ -35,12 +42,17 @@ const coursesData = [
         mode: "Difficulty",
         modeIcon: difficulty,
         module: "10 Module",
-        moduleIcon: moduleIcon,
+        moduleIcon1: moduleIcon1,
         student: "20k Student",
         studentIcon: studentIcon,
         rating: "Rating ⭐⭐⭐⭐⭐",
         price: "$30 Price",
         priceIcon: priceIcon,
+        bookModuleIcon: bookModuleIcon,
+        moduleText1: "1. Demo Course Introduction Module",
+        moduleText2: "2. Demo Course DOT Regulations Module",
+        moduleText3: "3. Demo Course Quiz",
+        moduleText4: "4. Demo Forms Packet",
     },
     {
         id: '3',
@@ -52,15 +64,20 @@ const coursesData = [
         mode: "Difficulty",
         modeIcon: difficulty,
         module: "15 Module",
-        moduleIcon: moduleIcon,
+        moduleIcon1: moduleIcon1,
         student: "20k Student",
         studentIcon: studentIcon,
         rating: "Rating ⭐⭐⭐⭐⭐",
         price: "$30 Price",
         priceIcon: priceIcon,
+        bookModuleIcon: bookModuleIcon,
+        moduleText1: "1. Demo Course Introduction Module",
+        moduleText2: "2. Demo Course DOT Regulations Module",
+        moduleText3: "3. Demo Course Quiz",
+        moduleText4: "4. Demo Forms Packet",
     },
     {
-        id: '3',
+        id: '4',
         image: image4,
         instructor: "Thomas Smith",
         title: "Drug-Free Workplace Training",
@@ -69,12 +86,17 @@ const coursesData = [
         mode: "Difficulty",
         modeIcon: difficulty,
         module: "5 Module",
-        moduleIcon: moduleIcon,
+        moduleIcon1: moduleIcon1,
         student: "16k Student",
         studentIcon: studentIcon,
         rating: "Rating ⭐⭐⭐⭐⭐",
         price: "$30 Price",
         priceIcon: priceIcon,
+        bookModuleIcon: bookModuleIcon,
+        moduleText1: "1. Demo Course Introduction Module",
+        moduleText2: "2. Demo Course DOT Regulations Module",
+        moduleText3: "3. Demo Course Quiz",
+        moduleText4: "4. Demo Forms Packet",
     },
 ]
 
