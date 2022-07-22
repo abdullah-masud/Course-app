@@ -1,8 +1,9 @@
 import React from 'react';
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Course = ({ course }) => {
-    const { title, image, description1, mode, modeIcon, module, moduleIcon1, student, studentIcon,
+    const { id, title, image, description1, mode, modeIcon, module, moduleIcon1, student, studentIcon,
         rating, price, priceIcon } = course
     return (
         <div>
@@ -41,7 +42,9 @@ const Course = ({ course }) => {
                     </div>
 
                     <div className="card-actions justify-end">
-                        <button className="btn bg-[#0070f4] border-none">Add to Cart</button>
+                        <Link href={`/${id}`}>
+                            <button className="btn bg-[#0070f4] border-none" ><a>Add to Cart</a></button>
+                        </Link>
                     </div>
                 </div>
             </div>

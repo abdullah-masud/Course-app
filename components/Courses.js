@@ -4,6 +4,8 @@ import Course from './Course';
 
 
 const Courses = () => {
+
+
     return (
         <div className='lg:px-32 px-4 '>
             {
