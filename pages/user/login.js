@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 const login = () => {
     return (
-        <div className='max-w-7xl lg:py-12 mx-auto lg:h-screen min-h-screen flex justify-center items-center'>
-            <div className="lg:card lg:w-2/4 h-full bg-[#e2f5ff] shadow-xl ">
+        <div className='max-w-7xl mx-auto  min-h-screen flex justify-center items-center'>
+            <div className="lg:card lg:w-2/4 h-full bg-[#e2f5ff] shadow-xl pb-20">
                 <div>
                     <h2 className='text-center text-3xl bg-[#1F497B] text-white py-6'>Login</h2>
                     <div className='w-1/5 mx-auto flex flex-col items-center'>
@@ -47,9 +47,9 @@ const login = () => {
                         <a href='#'>Forget Passowrd?</a>
                     </div>
                     <div className='mt-12 flex justify-evenly items-center lg:pb-0 pb-4'>
-                        <h2>Dont have an account?</h2>
+                        <h2 className='font-semibold'>Dont have an account?</h2>
                         <Link href={`/user/signup`}>
-                            <button className="p-2 shadow-lg rounded-lg bg-base-100 text-[#1F497B] border-none">Create an Account</button>
+                            <button className="p-2 shadow-lg rounded-lg bg-base-100 text-[#1F497B] border-none font-semibold">Create an Account</button>
                         </Link>
                     </div>
                 </div>
