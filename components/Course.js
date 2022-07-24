@@ -3,8 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const Course = ({ course }) => {
-    const { id, title, image, description1, mode, modeIcon, module, moduleIcon1, student, studentIcon,
-        rating, price, priceIcon } = course
+    const { id, title, image, description1, mode, modeIcon, module, moduleIcon1, student, studentIcon, rating, price, priceIcon } = course
     return (
         <div>
             <div className="card lg:card-side shadow-xl mb-12">
