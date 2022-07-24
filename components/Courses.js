@@ -7,7 +7,6 @@ const Courses = () => {
 
     return (
         <div className='lg:px-32 px-4 '>
-            <h2>Users: {coursesData.length}</h2>
             {
                 coursesData.map(course => <Course
                     key={course.id}

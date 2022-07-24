@@ -5,6 +5,7 @@ import courseIcon from '../assets/course.png'
 import cart from '../assets/cart.png'
 import user from '../assets/user.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Navbar = () => {
     const menuItems = <>
@@ -27,10 +28,12 @@ const Navbar = () => {
             </a>
         </li>
         <li>
-            <a>
-                <Image src={user} alt="homeIcon" width="30px" height="30px" />
-                <h2 className='text-2xl font-semibold'>User</h2>
-            </a>
+            <Link href={`/user/login`}>
+                <div>
+                    <Image src={user} alt="homeIcon" width="30px" height="30px" />
+                    <h2 className='text-2xl font-semibold'>User</h2>
+                </div>
+            </Link>
         </li>
     </>
     return (
