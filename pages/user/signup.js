@@ -59,10 +59,18 @@ const signup = () => {
                         </div>
                     </div>
                 </div>
-                <div className='px-2 mt-2'>
-                    <h2 className='text-[#1F497B] font-semibold mb-2'>Email Address<span className='text-red-500'>*</span></h2>
-                    <div >
-                        <input type="text" placeholder="@gmail.com" className="input input-bordered input-sm w-full " />
+                <div className='px-2 mt-2 '>
+                    <div>
+                        <h2 className='text-[#1F497B] font-semibold mb-2'>Email Address<span className='text-red-500'>*</span></h2>
+                        <div >
+                            <input type="text" placeholder="@gmail.com" className="input input-bordered input-sm w-full " />
+                        </div>
+                    </div>
+                    <div className='mt-6'>
+                        <h2 className='text-[#1F497B] font-semibold mb-2'>Password<span className='text-red-500'>*</span></h2>
+                        <div >
+                            <input type="text" placeholder="******" className="input input-bordered input-sm w-full " />
+                        </div>
                     </div>
                 </div>
                 <div className='my-12 flex flex-col gap-y-2 items-center'>
